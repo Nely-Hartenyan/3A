@@ -8,9 +8,9 @@ function ProductCard({ product,onAddToCart }) {
         className="h-58 w-full object-cover"
       />
 
-      <div className="p-7">
+      <div className="p-8">
 
-        <p className="mb-2 text-sm text-gray-500">
+        <p className="mb-3 text-sm text-gray-500">
           {product.category}
         </p>
 
