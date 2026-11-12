@@ -5,7 +5,7 @@ function ProductCard({ product,onAddToCart }) {
       <img
         src={product.image}
         alt={product.title}
-        className="h-56 w-full object-cover"
+        className="h-58 w-full object-cover"
       />
 
       <div className="p-7">
