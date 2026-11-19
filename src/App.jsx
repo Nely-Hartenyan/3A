@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import ProductList from './components/ProductList'
 import Footer from './components/Footer'
+import ContactForm from './components/ContactForm'
 import {useState} from "react";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Header cartLength={cart.length}/>
       <Hero />
       <ProductList onAddToCart={addToCart}/>
+      <ContactForm/>      
       <Footer/>
    </>
   )
